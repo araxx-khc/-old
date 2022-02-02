@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post">
+    <fieldset>
+        <legend>Add Zamowienie</legend>
+        <div>
+            <label for="Szerokość">Szerokość:</label>
+            <input type="text" name="Szerokość" value="" />
+        </div>
+        <div>
+            <label for="Wysokość">Wysokość:</label>
+            <input type="text" name="Wysokość" value="" />
+        </div>
+        <div>
+            <label for="Cena za m2 płyty">Cena za m2 płyty:</label>
+            <input type="cena" name="cena" value="655 zł/m²" />
+        </div>
+        <div>
+            <label for="Ilość płyt">ilość płyt:</label>
+            <input type="ilość" name="ilość" value="" />
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="submit" value="Submit" class="submit" />
+        </div>
+    </fieldset>
+</form>

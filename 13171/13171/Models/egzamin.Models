@@ -1,0 +1,12 @@
+﻿namespace _13171.Models
+{
+namespace exam.Models
+{
+    public class PersonModel
+    {
+        public int Szerokosc { get; set; }
+        public string Wysokosc { get; set; }
+        public int Ilosc { get; set; }
+    }
+}
+}
