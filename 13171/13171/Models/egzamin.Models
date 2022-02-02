@@ -7,6 +7,8 @@ namespace exam.Models
         public int Szerokosc { get; set; }
         public string Wysokosc { get; set; }
         public int Ilosc { get; set; }
-    }
+        
+        
+     }
 }
 }
